@@ -1,0 +1,31 @@
+math library:
+
+math.sqrt(x): Returns the square root of x.
+Example: math.sqrt(16) returns 4.0.
+
+math.ceil(x): Returns the smallest integer greater than or equal to x.
+Example: math.ceil(3.4) returns 4.
+
+math.floor(x): Returns the largest integer less than or equal to x.
+Example: math.floor(3.9) returns 3.
+
+math.sin(x): Returns the sine of x (in radians).
+Example: math.sin(math.pi/2) returns 1.0.
+
+math.cos(x): Returns the cosine of x (in radians).
+Example: math.cos(0) returns 1.0.
+
+math.exp(x): Returns e raised to the power of x.
+Example: math.exp(1) returns 2.718281828459045.
+
+math.log(x): Returns the natural logarithm (base e) of x.
+Example: math.log(10) returns 2.302585092994046.
+
+math.pow(x, y): Returns x raised to the power of y.
+Example: math.pow(2, 3) returns 8.0.
+
+math.radians(x): Converts x from degrees to radians.
+Example: math.radians(180) returns 3.141592653589793.
+
+math.degrees(x): Converts x from radians to degrees.
+Example: math.degrees(math.pi) returns 180.0.
