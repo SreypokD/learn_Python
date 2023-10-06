@@ -1,0 +1,11 @@
+Importing psycopg2.extras module provides additional functionalities and utilities that are not available in the core psycopg2 module. Here are a few reasons why you might want to import psycopg2.extras:
+
+NamedTupleCursor: psycopg2.extras.NamedTupleCursor is a cursor class provided by psycopg2.extras that returns query results as named tuples instead of regular tuples. Named tuples provide the advantage of accessing columns by their names, making the code more readable and self-explanatory. It eliminates the need to remember the index positions of columns in the result set.
+
+DictCursor: psycopg2.extras.DictCursor is another cursor class provided by psycopg2.extras. It returns query results as dictionaries where the column names are used as keys. This allows direct access to the column values using their respective names, making it easier to work with the data.
+
+RealDictCursor: Similar to DictCursor, psycopg2.extras.RealDictCursor returns query results as dictionaries. However, it stores the values as real Python dictionary objects, capable of accessing column values and iterating over rows with improved performance.
+
+JsonAdapter: psycopg2.extras.Json adapter allows easy conversion between Python dictionaries and PostgreSQL JSON data type. It provides a convenient way to work with JSON data in Python and seamlessly store and retrieve JSON data in PostgreSQL.
+
+HstoreAdapter: psycopg2.extras.Hstore adapter enables working with PostgreSQL's hstore data type, which is a key-value pair representation. It allows you to easily manipulate and query hstore data using Python dictionaries.
